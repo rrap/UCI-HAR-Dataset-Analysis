@@ -54,7 +54,7 @@ cols<-colsToExtract[1:(length(colsToExtract)-2)]
 colnames(miniDF) <- c(as.character(features[cols,2]), "SubjectID", "Activity")
 
 ##
-## Create a new tidy dataset with the average of each variable for each activity and each subject
+    ## Create a new tidy dataset with the average of each variable for each activity and each subject
 ##
 tidy_df <- aggregate(. ~ SubjectID + Activity, data = miniDF, FUN = "mean")
-write.table(tidy_df, "tidy.txt")
+write.table(tidy_df, "tidy.txt", row.names=FALSE)
