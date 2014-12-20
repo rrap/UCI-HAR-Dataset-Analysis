@@ -18,6 +18,8 @@ Running the script
 source("run_analysis.R")
 ```
 
+The script expects the HAR dataset to be present in the working directory under the "UCI HAR Dataset" directory
+
 The script saves the output in a file called "tidy.txt". It can be loaded back into R using the following command
 
 ```R
