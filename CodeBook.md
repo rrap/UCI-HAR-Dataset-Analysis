@@ -8,7 +8,7 @@ The output is created in a file tidy.txt which can be read using the following c
 tidy_data <- read.table("tidy.txt")
 ```
 
-The script reads and processes the University of California Irvine's (UCI's) dataset for Human Activity Recognition (HAR) using smartphones that can be used for further research and analysis. The original UCI HAR Dataset is a public domain dataset built from the recordings of subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensor (see http://archive.ics.uci.edumldatasetsHuman+Activity+Recognition+Using+Smartphones).
+The script reads and processes the University of California Irvine's (UCI's) dataset for Human Activity Recognition (HAR) using smartphones that can be used for further research and analysis. The original UCI HAR Dataset is a public domain dataset built from the recordings of subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensor (see http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 The script performs the following actions:
 ### Read and combine training and test data sets
